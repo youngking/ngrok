@@ -2,7 +2,6 @@
 package web
 
 import (
-	"github.com/gorilla/websocket"
 	"net/http"
 	"ngrok/client/assets"
 	"ngrok/client/mvc"
@@ -10,6 +9,8 @@ import (
 	"ngrok/proto"
 	"ngrok/util"
 	"path"
+
+	"github.com/gorilla/websocket"
 )
 
 type WebView struct {

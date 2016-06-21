@@ -8,7 +8,6 @@ import (
 	"ngrok/version"
 	"time"
 
-	"gopkg.in/inconshreveable/go-update.v0"
 	"gopkg.in/inconshreveable/go-update.v0/check"
 )
 
